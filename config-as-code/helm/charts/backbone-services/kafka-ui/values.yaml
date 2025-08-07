@@ -24,7 +24,7 @@ existingConfigMap: ""
 yamlApplicationConfig:
   kafka:
     clusters:
-      - name: azure-togo-uat
+      - name: azure-guinea-uat
         bootstrapServers: release-name-kafka.kafka-cluster:9092
   spring:
     security:
