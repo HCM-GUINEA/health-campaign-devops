@@ -293,3 +293,11 @@ env: |
     value: "1.8"
   - name: EGOV_LOCALIZATION_LOCALE_CODE
     value: pt_MZ
+  - name: CHECKLIST_EXTRATRANSFORMATION_NAMES
+    value: ELIGIBLITY_ASSESSMENT,HF_RF_DRUG_SE,HF_RF_FEVER,HF_RF_SICK
+  - name: TRANSFORMER_CHECKLIST_INFO_MDMS_MASTER
+    value: transformerChecklistInfo
+  - name: TRANSFORMER_CHECKLIST_INFO_MDMS_MODULE
+    value: HCM-TRANSFORMER-CHECKLIST-INFO
+  - name: TRANSFORMER_PRODUCER_EXTRA_TRANSFORMED_CHECKLIST_INDEX_V1_TOPIC
+    value: transformer-producer-extra-transformed-checklist-index-topic
